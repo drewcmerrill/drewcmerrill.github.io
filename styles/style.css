@@ -17,7 +17,7 @@ body {
   font-family: "Lato", Arial, sans-serif;
   padding-top: constant(safe-area-inset-top);
   padding-top: env(safe-area-inset-top);
-  background-color: rgba(179, 124, 74, 1);
+  /* background-color: rgba(179, 124, 74, 1); */
 }
 
 .navbar-banner {
