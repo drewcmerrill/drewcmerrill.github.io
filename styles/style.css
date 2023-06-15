@@ -1,3 +1,5 @@
+/* Computer screen */
+
 /* Reset some default styles */
 body,
 h1,
@@ -15,32 +17,31 @@ body {
   font-family: "Lato", Arial, sans-serif;
 }
 
-header {
-  background-color: #ba9375;
-  color: #fff;
-  padding: 35px;
-}
-
-.header-items {
-  list-style-type: none;
+.navbar {
+  background-color: #b37c4a;
+  height: 10vh;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
 }
 
-#homeLink {
-  margin-right: auto;
+.home-link {
+  color: #ffffff;
+  font-weight: bold;
 }
 
-.header-item {
-  display: inline-block;
-  margin-right: 20px;
-  font-size: 20px;
+.navbar-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.header-item a {
-  color: #fff;
+.navbar-item {
+  margin: 0 10px;
   text-decoration: none;
   font-weight: bold;
+  color: #ffffff;
 }
 
 .banner-container {
@@ -61,26 +62,15 @@ header {
   height: auto;
 }
 
-section {
-  padding: 50px;
-}
+/* Phone */
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
-section h2 {
-  margin-bottom: 20px;
-}
-
-#contact-form label,
-#contact-form input,
-#contact-form textarea,
-#contact-form button {
-  display: block;
-  margin-bottom: 10px;
-}
-
-#contact-form button {
-  padding: 10px;
-  background-color: #333;
-  color: #fff;
-  border: none;
-  cursor: pointer;
+  .home-link {
+    margin-bottom: 10px;
+  }
 }
