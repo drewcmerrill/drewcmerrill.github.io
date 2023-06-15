@@ -15,6 +15,11 @@ li {
 /* Set some basic styles */
 body {
   font-family: "Lato", Arial, sans-serif;
+  padding-top: constant(safe-area-inset-top); /* For iOS devices */
+  padding-top: env(
+    safe-area-inset-top
+  ); /* For newer iOS devices with CSS environment variables support */
+  /* Additional styling as needed */
 }
 
 .navbar-banner {
