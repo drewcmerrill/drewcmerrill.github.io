@@ -29,6 +29,7 @@ body {
 .home-link {
   color: #ffffff;
   font-weight: bold;
+  font-size: 25px;
 }
 
 .navbar-items {
@@ -40,6 +41,7 @@ body {
 .navbar-item {
   margin: 0 10px;
   text-decoration: none;
+  font-size: 25px;
   font-weight: bold;
   color: #ffffff;
 }
@@ -72,5 +74,10 @@ body {
 
   .home-link {
     margin-bottom: 10px;
+  }
+
+  .navbar-item {
+    font-size: 15px;
+    margin: 0 5px;
   }
 }
