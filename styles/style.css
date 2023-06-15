@@ -1,10 +1,5 @@
 /* Computer screen */
 
-@font-face {
-  font-family: "Gotham";
-  src: url(/drewcmerrill.github.io/fonts/GothamBook.ttf);
-}
-
 /* Reset some default styles */
 body,
 h1,
@@ -33,28 +28,32 @@ body {
 }
 
 .navbar {
-  position: absolute;
+  position: relative;
   background: linear-gradient(
     to bottom,
-    rgb(179, 124, 74),
+    rgb(151, 73, 0),
     rgba(179, 124, 74, 0)
   );
 
   width: 100%;
-  /* padding-top: 30%; */
   height: 30vh;
   display: flex;
   justify-content: space-between;
 }
 
 .home-link {
+  position: absolute;
+  top: 15%;
+  left: 20px;
   margin-top: 10px;
   color: #ffffff;
-  /* font-weight: bold; */
   font-size: 25px;
 }
 
 .navbar-items {
+  position: absolute;
+  top: 15%;
+  right: 20px;
   margin-top: 10px;
   display: flex;
   justify-content: center;
@@ -64,7 +63,6 @@ body {
   margin: 0 10px;
   text-decoration: none;
   font-size: 25px;
-  /* font-weight: bold; */
   color: #ffffff;
 }
 
@@ -82,15 +80,25 @@ body {
 /* Phone */
 @media screen and (max-width: 860px) {
   .navbar {
-    flex-direction: column;
-    align-items: center;
+    /* flex-direction: column;
+    align-items: center; */
     height: 0vh;
     padding-top: 27%;
   }
 
   .home-link {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     margin-top: 20px;
     margin-bottom: 10px;
+  }
+
+  .navbar-items {
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 20px;
   }
 
   .navbar-item {
