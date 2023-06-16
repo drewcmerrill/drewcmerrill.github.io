@@ -18,7 +18,7 @@ body {
   font-weight: 200;
   padding-top: constant(safe-area-inset-top);
   padding-top: env(safe-area-inset-top);
-  background-color: rgba(179, 124, 74, 1);
+  background-color: rgb(151, 73, 0);
 }
 
 .navbar-banner {
@@ -80,10 +80,8 @@ body {
 /* Phone */
 @media screen and (max-width: 860px) {
   .navbar {
-    /* flex-direction: column;
-    align-items: center; */
-    height: 0vh;
-    padding-top: 27%;
+    height: 100vh;
+    /* padding-top: 100%; */
   }
 
   .home-link {
@@ -95,7 +93,7 @@ body {
   }
 
   .navbar-items {
-    top: 65%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin-top: 20px;
