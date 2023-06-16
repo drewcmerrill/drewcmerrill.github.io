@@ -25,6 +25,7 @@ body {
   position: relative;
   height: 100vh;
   overflow: hidden;
+  -webkit-overflow-scrolling: touch;
 }
 
 .navbar {
@@ -74,6 +75,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  -webkit-overflow-scrolling: touch;
   z-index: -1;
 }
 
