@@ -85,22 +85,24 @@ body {
   }
 
   .home-link {
-    top: 50%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-weight: 300;
     margin-top: 20px;
     margin-bottom: 10px;
   }
 
   .navbar-items {
-    top: 55%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   .navbar-item {
     font-size: 15px;
+    font-weight: 200;
     margin: 0 5px;
   }
 }
