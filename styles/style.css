@@ -85,17 +85,11 @@ body {
 /* Phone */
 @media screen and (max-width: 860px) {
   .navbar {
-    top: -25vh;
-    height: 125vh;
-    background: linear-gradient(
-      to bottom,
-      rgb(151, 73, 0) 20%,
-      rgba(179, 124, 74, 0)
-    );
+    height: 100vh;
   }
 
   .home-link {
-    top: 50%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-weight: 300;
@@ -104,7 +98,7 @@ body {
   }
 
   .navbar-items {
-    top: 54%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin-top: 15px;
