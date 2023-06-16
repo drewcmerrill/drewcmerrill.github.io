@@ -20,6 +20,7 @@ body {
   padding-top: env(safe-area-inset-top);
   background-color: rgb(151, 73, 0);
   -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
 }
 
 .navbar-banner {
