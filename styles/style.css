@@ -19,6 +19,7 @@ body {
   padding-top: constant(safe-area-inset-top);
   padding-top: env(safe-area-inset-top);
   background-color: rgb(151, 73, 0);
+  overflow: auto;
 }
 
 .navbar-banner {
