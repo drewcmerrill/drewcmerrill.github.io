@@ -122,7 +122,7 @@ body {
   padding: 40px;
   width: 60%;
   height: 50%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.65);
   z-index: 2;
 }
 
@@ -140,13 +140,13 @@ body {
 .about-me-photo-container {
   position: relative;
   float: left;
-  width: 15%;
+  width: 150px;
   height: auto;
   aspect-ratio: 1/1;
   overflow: hidden;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 1);
-  margin: 15px 20px 20px 15px;
+  margin: 0px 20px 20px 0px;
 }
 
 .about-me-photo {
@@ -175,9 +175,6 @@ body {
     top: 38vh;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* font-weight: 200;
-    margin-top: 20px;
-    margin-bottom: 10px; */
   }
 
   .navbar-items {
@@ -226,35 +223,36 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
     width: calc(100%);
     height: calc(100%);
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.6);
     z-index: 2;
   }
 
   .about-me-photo-container {
-    width: 30%;
-    margin: 15px 20px 20px 15px;
+    width: 125px;
+    margin: 70px 20px 20px 15px;
   }
 
   .about-me-photo {
-    position: relative;
-    width: 150%;
-    top: 60%;
-    left: 50%;
-    height: auto;
-    transform: translate(-50%, -50%);
+    top: 50px;
   }
 
-  /* .about-me {
-    top: 10px;
+  .about-me {
+    top: 40px;
     left: 50%;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 100;
     letter-spacing: -3px;
     transform: translate(-50%, 0%);
-  } */
+  }
+
+  .bio-text {
+    margin-top: 70px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width: 360px) {
