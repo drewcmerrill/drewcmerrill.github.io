@@ -4,6 +4,7 @@ window.addEventListener("load", function () {
     .querySelector(".banner-photo")
     .getBoundingClientRect().bottom;
   let screenHeight = this.window.innerHeight;
-  fixedDivBottom = Math.min(screenHeight, fixedDivBottom);
-  document.querySelector(".bio").style.top = fixedDivBottom + "px";
+  if (screenHeight < fixedDivBottom) {
+    document.querySelector(".bio").style.top = screenHeight + "px";
+  }
 });
