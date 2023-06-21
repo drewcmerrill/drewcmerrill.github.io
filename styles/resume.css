@@ -1,0 +1,138 @@
+/* Computer screen */
+
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: -webkit-fill-available;
+}
+/* Set some basic styles */
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  background-color: rgb(151, 73, 0);
+  height: -webkit-fill-available;
+}
+
+.banner-photo {
+  position: fixed;
+  width: 1920px;
+  top: -275px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.navbar {
+  position: fixed;
+  background: linear-gradient(
+    to bottom,
+    rgba(151, 73, 0, 1),
+    rgba(179, 124, 74, 0)
+  );
+  top: 0%;
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.home-link {
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  margin-top: 10px;
+  color: #ffffff;
+  font-size: 25px;
+  border-bottom: 1px solid white;
+  text-decoration: none;
+}
+
+.navbar-items {
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-item {
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.resume {
+  position: absolute;
+  width: calc(100vw - 90px);
+  max-width: 1000px;
+
+  left: 50%;
+  top: 125px;
+  transform: translate(-50%, 0%);
+  display: inline-block;
+  justify-content: center;
+  background-color: blanchedalmond;
+}
+.resume-header {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #000000;
+}
+
+.resume-header p {
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+}
+
+.education {
+  height: 1200px;
+}
+
+/* Phone */
+@media screen and (max-width: 860px) {
+  .navbar {
+    height: 20vh;
+  }
+
+  .home-link {
+    top: 5vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .navbar-items {
+    top: calc(5vh + 25px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 15px;
+  }
+
+  .navbar-item {
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0 5px;
+  }
+
+  .resume {
+    top: 100px;
+    width: calc(100vw - 20px);
+  }
+  .resume-header p {
+    font-size: 11px;
+  }
+}
