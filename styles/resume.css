@@ -122,15 +122,16 @@ body {
 
 .position > p {
   font-weight: bold;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .tasks {
   margin-left: 30px;
+  font-size: 20px;
+  font-weight: 300;
 }
 
-.test {
-  height: 1400px;
-}
 /* Phone */
 @media screen and (max-width: 860px) {
   .navbar {
