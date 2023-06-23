@@ -187,6 +187,7 @@ body {
   }
 
   .position > p {
+    font-size: 7px;
     font-weight: bold;
     white-space: nowrap;
     text-overflow: ellipsis;
