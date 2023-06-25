@@ -78,7 +78,7 @@ body {
   position: absolute;
   width: calc(100vw - 90px);
   max-width: 1000px;
-
+  padding-bottom: 10px;
   left: 50%;
   top: 125px;
   transform: translate(-50%, 0%);
