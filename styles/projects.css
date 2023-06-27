@@ -1,0 +1,154 @@
+/* Computer screen */
+
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: -webkit-fill-available;
+}
+/* Set some basic styles */
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  background-color: #ffebcd;
+  height: -webkit-fill-available;
+}
+
+.navbar {
+  position: absolute;
+  background: linear-gradient(
+    to bottom,
+    rgb(153, 74, 0),
+    rgba(179, 124, 74, 0)
+  );
+  top: 0%;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.home-link {
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  margin-top: 10px;
+  color: #ffffff;
+  font-size: 25px;
+  border-bottom: 1px solid white;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.navbar-items {
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-item {
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+}
+
+.projects-header {
+  position: relative;
+  width: 700px;
+  max-width: calc(100% - 30px);
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  padding: 15px;
+  background-color: #ffdcb5;
+  border: 3px solid black;
+  box-shadow: 0 10px 0 -5px #ff8b5e, 0 20px 0 -10px #c7b0b5,
+    0 30px 0 -16px #dedcb9;
+}
+.projects-header p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.project {
+  position: relative;
+  width: calc(100vw - 30px);
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-photo {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 3px solid black;
+  box-shadow: 0 10px 0 -5px rgba(0, 0, 0, 0.25);
+}
+
+.description {
+  position: relative;
+  width: 700px;
+  max-width: calc(100% - 30px);
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: #ffdcb5;
+  border: 3px solid black;
+  box-shadow: 0 10px 0 -5px #ff8b5e, 0 20px 0 -10px #c7b0b5,
+    0 30px 0 -16px #dedcb9;
+  z-index: 1;
+  margin: -10% 0 50px 0;
+}
+.description p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/* Phone */
+@media screen and (max-width: 860px) {
+  .navbar {
+    height: 175px;
+  }
+
+  .home-link {
+    top: 35px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .navbar-items {
+    top: 60px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 15px;
+  }
+
+  .navbar-item {
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0 5px;
+  }
+}

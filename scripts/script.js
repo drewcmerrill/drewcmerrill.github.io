@@ -1,5 +1,4 @@
 window.addEventListener("load", function () {
-  let bannerHeight = document.querySelector(".banner-photo").offsetHeight;
   let fixedDivBottom = document
     .querySelector(".banner-photo")
     .getBoundingClientRect().bottom;
