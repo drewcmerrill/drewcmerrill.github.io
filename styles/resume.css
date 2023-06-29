@@ -138,6 +138,7 @@ body {
 @media screen and (max-width: 860px) {
   .navbar {
     height: 175px;
+    position: relative;
   }
 
   .home-link {
