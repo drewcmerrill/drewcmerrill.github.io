@@ -900,6 +900,7 @@ function buildBookshelf(bookList) {
 
   bookList.forEach(function (book) {
     if (book.height * book.heightRatio > remainingShelfWidth) {
+      currentShelf.style.justifyContent = "center";
       currentShelf = document.createElement("div");
       currentShelf.classList.add("shelf-space");
       document.querySelector(".bookshelf").appendChild(currentShelf);
