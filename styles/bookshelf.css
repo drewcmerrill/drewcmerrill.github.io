@@ -91,27 +91,28 @@ body {
   width: calc(100vw - 60px);
   /* height: 400px; */
   /* background-color: rgb(65, 63, 63); */
-  margin-bottom: 80px;
+  /* margin-bottom: 80px; */
   box-sizing: border-box;
   position: relative;
+  justify-content: center;
 }
 
 .shelf {
   position: absolute;
-  height: 50px;
+  /* height: 50px; */
   background-color: rgb(61, 54, 48);
   bottom: -50px;
   box-shadow: 0px 20px 8px rgba(0, 0, 0, 0.2);
   border-radius: 3px;
 }
 
-.book {
+.cover {
   transition: transform 0.5s ease; /* Add top property to the transition */
   box-shadow: 10px 0px 8px rgba(0, 0, 0, 0.2);
-  /* height: 20vh; */
+  max-height: 500px;
 }
 
-.book:hover {
+.cover:hover {
   /* transform: scale(1.05); */
   transform: translate(0, -10px);
 }
