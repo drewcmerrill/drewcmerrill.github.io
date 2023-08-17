@@ -6,7 +6,7 @@ const books = [
     author: "Victor Hugo",
     genres: ["Classic", "Fiction"],
     goodreads: "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
-    png: "images/books/Les_Miserables.png",
+    webp: "images/books/Les_Miserables.webp",
     height: 75 * heightMultplier,
     heightRatio: 0.355,
   },
@@ -15,7 +15,7 @@ const books = [
     author: "George R.R. Martin",
     genres: ["Fantasy"],
     goodreads: "",
-    png: "images/books/A_knight_of_The_seven_Kingdoms.png",
+    webp: "images/books/A_knight_of_The_seven_Kingdoms.webp",
     height: 100 * heightMultplier,
     heightRatio: 0.208,
   },
@@ -24,44 +24,44 @@ const books = [
     author: "George R.R. Martin",
     genres: ["Fantasy"],
     goodreads: "",
-    png: "images/books/Fire_&_Blood.png",
+    webp: "images/books/Fire_&_Blood.webp",
     height: 100 * heightMultplier,
     heightRatio: 0.233,
   },
   {
     title: "Nightlord: Sunset",
-    png: "images/books/Nightlord_Sunset.png",
+    webp: "images/books/Nightlord_Sunset.webp",
     height: 100 * heightMultplier,
     heightRatio: 0.262,
   },
 
   {
     title: "Replay",
-    png: "images/books/Replay.png",
+    webp: "images/books/Replay.webp",
     height: 100 * heightMultplier,
     heightRatio: 0.136,
   },
   {
     title: "Sea of Tranquility",
-    png: "images/books/Sea_of_Tranquility.png",
+    webp: "images/books/Sea_of_Tranquility.webp",
     height: 100 * heightMultplier,
     heightRatio: 0.149,
   },
   {
     title: "The Catcher in the Rye",
-    png: "images/books/The_Catcher_in_the_Rye.png",
+    webp: "images/books/The_Catcher_in_the_Rye.webp",
     height: 100 * heightMultplier,
     heightRatio: 0.139,
   },
   {
     title: "The Song of Achilles",
-    png: "images/books/The_Song_of_Achilles.png",
+    webp: "images/books/The_Song_of_Achilles.webp",
     height: 100 * heightMultplier,
     heightRatio: 0.157,
   },
   {
     title: "Wuthering Heights",
-    png: "images/books/Wuthering_Heights.png",
+    webp: "images/books/Wuthering_Heights.webp",
     height: 100 * heightMultplier,
     heightRatio: 0.225,
   },
@@ -74,105 +74,105 @@ const WheelOfTime = [
   {
     title: "New Spring",
     author: "Robert Jordan",
-    png: "images/books/New_Spring.png",
+    webp: "images/books/New_Spring.webp",
     height: 100 * heightMultplier,
     heightRatio: 0.15,
   },
   {
     title: "The Eye of the World",
     author: "Robert Jordan",
-    png: "images/books/The_Eye_of_the_World.png",
+    webp: "images/books/The_Eye_of_the_World.webp",
     height: 100 * heightMultplier,
     heightRatio: 0.198,
   },
   {
     title: "The Great Hunt",
     author: "Robert Jordan",
-    png: "images/books/The_Great_Hunt.png",
+    webp: "images/books/The_Great_Hunt.webp",
     height: 100 * heightMultplier,
     heightRatio: 0.181,
   },
   {
     title: "The Dragon Reborn",
     author: "Robert Jordan",
-    png: "images/books/The_Dragon_Reborn.png",
+    webp: "images/books/The_Dragon_Reborn.webp",
     height: 100 * heightMultplier,
     heightRatio: 0.189,
   },
   {
     title: "The Shadow Rising",
     author: "Robert Jordan",
-    png: "images/books/The_Shadow_Rising.png",
+    webp: "images/books/The_Shadow_Rising.webp",
     height: 100 * heightMultplier,
     heightRatio: 0.191,
   },
   {
     title: "The Fires of Heaven",
     author: "Robert Jordan",
-    png: "images/books/The_Fires_of_Heaven.png",
+    webp: "images/books/The_Fires_of_Heaven.webp",
     height: 100 * heightMultplier,
     heightRatio: 0.185,
   },
   {
     title: "Lord of Chaos",
     author: "Robert Jordan",
-    png: "images/books/Lord_of_Chaos.png",
+    webp: "images/books/Lord_of_Chaos.webp",
     height: 100 * heightMultplier,
     heightRatio: 0.168,
   },
   {
     title: "A Crown of Swords",
     author: "Robert Jordan",
-    png: "images/books/A_Crown_of_Swords.png",
+    webp: "images/books/A_Crown_of_Swords.webp",
     height: 100 * heightMultplier,
     heightRatio: 0.197,
   },
   {
     title: "The Path of Daggers",
     author: "Robert Jordan",
-    png: "images/books/The_Path_of_Daggers.png",
+    webp: "images/books/The_Path_of_Daggers.webp",
     height: 100 * heightMultplier,
     heightRatio: 0.2,
   },
   {
     title: "Winter's Heart",
     author: "Robert Jordan",
-    png: "images/books/Winter's_Heart.png",
+    webp: "images/books/Winter's_Heart.webp",
     height: 100 * heightMultplier,
     heightRatio: 0.164,
   },
   {
     title: "Crossroads of Twilight",
     author: "Robert Jordan",
-    png: "images/books/Crossroads_of_Twilight.png",
+    webp: "images/books/Crossroads_of_Twilight.webp",
     height: 100 * heightMultplier,
     heightRatio: 0.213,
   },
   {
     title: "Knife of Dreams",
     author: "Robert Jordan",
-    png: "images/books/Knife_of_Dreams.png",
+    webp: "images/books/Knife_of_Dreams.webp",
     height: 100 * heightMultplier,
     heightRatio: 0.161,
   },
   {
     title: "The Gathering Storm",
     author: "Robert Jordan",
-    png: "images/books/The_Gathering_Storm.png",
+    webp: "images/books/The_Gathering_Storm.webp",
     height: 100 * heightMultplier,
     heightRatio: 0.25,
   },
   {
     title: "Towers of Midnight",
     author: "Robert Jordan",
-    png: "images/books/Towers_of_Midnight.png",
+    webp: "images/books/Towers_of_Midnight.webp",
     height: 100 * heightMultplier,
     heightRatio: 0.205,
   },
   {
     title: "A Memory of Light",
     author: "Robert Jordan",
-    png: "images/books/A_Memory_of_Light.png",
+    webp: "images/books/A_Memory_of_Light.webp",
     height: 100 * heightMultplier,
     heightRatio: 0.225,
   },
@@ -214,7 +214,7 @@ function buildBookshelf(bookList) {
       }
       const cover = document.createElement("img");
       cover.classList.add("book");
-      cover.src = book.png;
+      cover.src = book.webp;
       cover.height = book.height;
       currentShelf.appendChild(cover);
       cover.addEventListener("load", function () {
@@ -241,7 +241,7 @@ function buildBookshelf(bookList) {
         WheelOfTime.forEach(function (book) {
           const cover = document.createElement("img");
           cover.classList.add("book");
-          cover.src = book.png;
+          cover.src = book.webp;
           cover.height = book.height;
           WoTShelfSpace.appendChild(cover);
         });
@@ -249,7 +249,7 @@ function buildBookshelf(bookList) {
         WheelOfTime.forEach(function (book) {
           const cover = document.createElement("img");
           cover.classList.add("book");
-          cover.src = book.png;
+          cover.src = book.webp;
           cover.height = book.height;
           currentShelf.appendChild(cover);
           remainingShelfWidth -= book.height * book.heightRatio;
