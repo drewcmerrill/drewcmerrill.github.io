@@ -7,7 +7,7 @@ const books = [
     genres: ["Classic", "Fiction"],
     goodreads: "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
     webp: "images/books/Les_Miserables.webp",
-    height: 75 * heightMultplier,
+    height: 100 * heightMultplier,
     heightRatio: 0.355,
   },
   {
@@ -38,31 +38,31 @@ const books = [
   {
     title: "Replay",
     webp: "images/books/Replay.webp",
-    height: 100 * heightMultplier,
+    height: 85 * heightMultplier,
     heightRatio: 0.136,
   },
   {
     title: "Sea of Tranquility",
     webp: "images/books/Sea_of_Tranquility.webp",
-    height: 100 * heightMultplier,
+    height: 90 * heightMultplier,
     heightRatio: 0.149,
   },
   {
     title: "The Catcher in the Rye",
     webp: "images/books/The_Catcher_in_the_Rye.webp",
-    height: 100 * heightMultplier,
+    height: 80 * heightMultplier,
     heightRatio: 0.139,
   },
   {
     title: "The Song of Achilles",
     webp: "images/books/The_Song_of_Achilles.webp",
-    height: 100 * heightMultplier,
+    height: 85 * heightMultplier,
     heightRatio: 0.157,
   },
   {
     title: "Wuthering Heights",
     webp: "images/books/Wuthering_Heights.webp",
-    height: 100 * heightMultplier,
+    height: 90 * heightMultplier,
     heightRatio: 0.225,
   },
   {
@@ -74,7 +74,7 @@ const books = [
     genres: ["Classic", "Fiction"],
     goodreads: "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
     webp: "images/books/Les_Miserables.webp",
-    height: 75 * heightMultplier,
+    height: 100 * heightMultplier,
     heightRatio: 0.355,
   },
   {
@@ -105,31 +105,31 @@ const books = [
   {
     title: "Replay",
     webp: "images/books/Replay.webp",
-    height: 100 * heightMultplier,
+    height: 85 * heightMultplier,
     heightRatio: 0.136,
   },
   {
     title: "Sea of Tranquility",
     webp: "images/books/Sea_of_Tranquility.webp",
-    height: 100 * heightMultplier,
+    height: 90 * heightMultplier,
     heightRatio: 0.149,
   },
   {
     title: "The Catcher in the Rye",
     webp: "images/books/The_Catcher_in_the_Rye.webp",
-    height: 100 * heightMultplier,
+    height: 80 * heightMultplier,
     heightRatio: 0.139,
   },
   {
     title: "The Song of Achilles",
     webp: "images/books/The_Song_of_Achilles.webp",
-    height: 100 * heightMultplier,
+    height: 85 * heightMultplier,
     heightRatio: 0.157,
   },
   {
     title: "Wuthering Heights",
     webp: "images/books/Wuthering_Heights.webp",
-    height: 100 * heightMultplier,
+    height: 90 * heightMultplier,
     heightRatio: 0.225,
   },
   {
@@ -138,7 +138,7 @@ const books = [
     genres: ["Classic", "Fiction"],
     goodreads: "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
     webp: "images/books/Les_Miserables.webp",
-    height: 75 * heightMultplier,
+    height: 100 * heightMultplier,
     heightRatio: 0.355,
   },
   {
@@ -169,31 +169,31 @@ const books = [
   {
     title: "Replay",
     webp: "images/books/Replay.webp",
-    height: 100 * heightMultplier,
+    height: 85 * heightMultplier,
     heightRatio: 0.136,
   },
   {
     title: "Sea of Tranquility",
     webp: "images/books/Sea_of_Tranquility.webp",
-    height: 100 * heightMultplier,
+    height: 90 * heightMultplier,
     heightRatio: 0.149,
   },
   {
     title: "The Catcher in the Rye",
     webp: "images/books/The_Catcher_in_the_Rye.webp",
-    height: 100 * heightMultplier,
+    height: 80 * heightMultplier,
     heightRatio: 0.139,
   },
   {
     title: "The Song of Achilles",
     webp: "images/books/The_Song_of_Achilles.webp",
-    height: 100 * heightMultplier,
+    height: 85 * heightMultplier,
     heightRatio: 0.157,
   },
   {
     title: "Wuthering Heights",
     webp: "images/books/Wuthering_Heights.webp",
-    height: 100 * heightMultplier,
+    height: 90 * heightMultplier,
     heightRatio: 0.225,
   },
   {
@@ -202,7 +202,7 @@ const books = [
     genres: ["Classic", "Fiction"],
     goodreads: "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
     webp: "images/books/Les_Miserables.webp",
-    height: 75 * heightMultplier,
+    height: 100 * heightMultplier,
     heightRatio: 0.355,
   },
   {
@@ -233,31 +233,31 @@ const books = [
   {
     title: "Replay",
     webp: "images/books/Replay.webp",
-    height: 100 * heightMultplier,
+    height: 85 * heightMultplier,
     heightRatio: 0.136,
   },
   {
     title: "Sea of Tranquility",
     webp: "images/books/Sea_of_Tranquility.webp",
-    height: 100 * heightMultplier,
+    height: 90 * heightMultplier,
     heightRatio: 0.149,
   },
   {
     title: "The Catcher in the Rye",
     webp: "images/books/The_Catcher_in_the_Rye.webp",
-    height: 100 * heightMultplier,
+    height: 80 * heightMultplier,
     heightRatio: 0.139,
   },
   {
     title: "The Song of Achilles",
     webp: "images/books/The_Song_of_Achilles.webp",
-    height: 100 * heightMultplier,
+    height: 85 * heightMultplier,
     heightRatio: 0.157,
   },
   {
     title: "Wuthering Heights",
     webp: "images/books/Wuthering_Heights.webp",
-    height: 100 * heightMultplier,
+    height: 90 * heightMultplier,
     heightRatio: 0.225,
   },
   {
@@ -266,7 +266,7 @@ const books = [
     genres: ["Classic", "Fiction"],
     goodreads: "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
     webp: "images/books/Les_Miserables.webp",
-    height: 75 * heightMultplier,
+    height: 100 * heightMultplier,
     heightRatio: 0.355,
   },
   {
@@ -297,95 +297,31 @@ const books = [
   {
     title: "Replay",
     webp: "images/books/Replay.webp",
-    height: 100 * heightMultplier,
+    height: 85 * heightMultplier,
     heightRatio: 0.136,
   },
   {
     title: "Sea of Tranquility",
     webp: "images/books/Sea_of_Tranquility.webp",
-    height: 100 * heightMultplier,
+    height: 90 * heightMultplier,
     heightRatio: 0.149,
   },
   {
     title: "The Catcher in the Rye",
     webp: "images/books/The_Catcher_in_the_Rye.webp",
-    height: 100 * heightMultplier,
+    height: 80 * heightMultplier,
     heightRatio: 0.139,
   },
   {
     title: "The Song of Achilles",
     webp: "images/books/The_Song_of_Achilles.webp",
-    height: 100 * heightMultplier,
+    height: 85 * heightMultplier,
     heightRatio: 0.157,
   },
   {
     title: "Wuthering Heights",
     webp: "images/books/Wuthering_Heights.webp",
-    height: 100 * heightMultplier,
-    heightRatio: 0.225,
-  },
-  {
-    title: "Les Misérables",
-    author: "Victor Hugo",
-    genres: ["Classic", "Fiction"],
-    goodreads: "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
-    webp: "images/books/Les_Miserables.webp",
-    height: 75 * heightMultplier,
-    heightRatio: 0.355,
-  },
-  {
-    title: "A Knight of the Seven Kingdoms",
-    author: "George R.R. Martin",
-    genres: ["Fantasy"],
-    goodreads: "",
-    webp: "images/books/A_knight_of_The_seven_Kingdoms.webp",
-    height: 100 * heightMultplier,
-    heightRatio: 0.208,
-  },
-  {
-    title: "Fire & Blood",
-    author: "George R.R. Martin",
-    genres: ["Fantasy"],
-    goodreads: "",
-    webp: "images/books/Fire_&_Blood.webp",
-    height: 100 * heightMultplier,
-    heightRatio: 0.233,
-  },
-  {
-    title: "Nightlord: Sunset",
-    webp: "images/books/Nightlord_Sunset.webp",
-    height: 100 * heightMultplier,
-    heightRatio: 0.262,
-  },
-
-  {
-    title: "Replay",
-    webp: "images/books/Replay.webp",
-    height: 100 * heightMultplier,
-    heightRatio: 0.136,
-  },
-  {
-    title: "Sea of Tranquility",
-    webp: "images/books/Sea_of_Tranquility.webp",
-    height: 100 * heightMultplier,
-    heightRatio: 0.149,
-  },
-  {
-    title: "The Catcher in the Rye",
-    webp: "images/books/The_Catcher_in_the_Rye.webp",
-    height: 100 * heightMultplier,
-    heightRatio: 0.139,
-  },
-  {
-    title: "The Song of Achilles",
-    webp: "images/books/The_Song_of_Achilles.webp",
-    height: 100 * heightMultplier,
-    heightRatio: 0.157,
-  },
-  {
-    title: "Wuthering Heights",
-    webp: "images/books/Wuthering_Heights.webp",
-    height: 100 * heightMultplier,
+    height: 90 * heightMultplier,
     heightRatio: 0.225,
   },
 ];
@@ -498,6 +434,8 @@ const WheelOfTime = [
   },
 ];
 
+const HarryPotter = [];
+
 //Get the width of all the wheel of time books together
 function getWoTWidth(books) {
   const WoT = books.filter((book) => book.author === "Robert Jordan");
@@ -508,15 +446,19 @@ function getWoTWidth(books) {
   );
 }
 
-function getRemainingShelfWidth(shelf) {
-  let remainingShelfWidth = shelf.querySelector(".shelf").style.width;
-  remainingShelfWidth = parseInt(remainingShelfWidth.slice(0, -2));
-  for (let book of shelf.querySelectorAll(".cover")) return remainingShelfWidth;
+//Get the width of all the Harry Potter books together
+function getHarryPotterWidth(books) {
+  const HP = books.filter((book) => book.author === "J.K. Rowling");
+  return HP.reduce(
+    (totalWidth, currentBook) =>
+      totalWidth + currentBook.height * currentBook.heightRatio,
+    0
+  );
 }
 
 //creates a new bookshelf
 function createShelf() {
-  let shelfHeight = 15 * heightMultplier;
+  let shelfHeight = 10 * heightMultplier;
   shelfHeight = Math.min(shelfHeight, 70);
 
   //create a new shelfSpace
@@ -543,12 +485,16 @@ function addCoverToShelf(book, shelf) {
   cover.classList.add("cover");
 
   //set a max height of a cover
-  let coverMaxHeight = 700;
+  let coverMaxHeight = 400;
   cover.style.maxHeight = coverMaxHeight;
-  book.height = Math.min(book.height, coverMaxHeight);
+  book.height = Math.min(
+    book.height,
+    (coverMaxHeight * book.height) / (100 * heightMultplier)
+  );
 
   cover.src = book.webp;
   cover.height = book.height;
+  cover.id = book.title;
   shelf.appendChild(cover);
 
   //prints out the width ratio
@@ -564,6 +510,38 @@ function addCoverToShelf(book, shelf) {
   // });
 }
 
+function addGroupOfBooks(group, shelf) {
+  //add each wheel of time book to the shelf
+  group.forEach(function (book) {
+    addCoverToShelf(book, shelf);
+  });
+}
+
+function getBookWidth(title) {
+  //search the main books list
+  let book = books.find((book) => book.title === title);
+
+  //search The Wheel of Time
+  if (!book) {
+    book = WheelOfTime.find((book) => book.title === title);
+  }
+
+  //search Harry Potter
+  if (!book) {
+    book = HarryPotter.find((book) => book.title === title);
+  }
+  return book.height * book.heightRatio;
+}
+
+function getRemainingShelfWidth(shelf) {
+  let remainingShelfWidth = shelf.querySelector(".shelf").style.width;
+  remainingShelfWidth = parseInt(remainingShelfWidth.slice(0, -2));
+  for (let cover of shelf.querySelectorAll(".cover")) {
+    remainingShelfWidth -= getBookWidth(cover.id);
+  }
+  return remainingShelfWidth;
+}
+
 //adds all books to the bookshelf
 function buildBookshelf(bookList) {
   const bookshelf = document.querySelector(".bookshelf");
@@ -575,15 +553,41 @@ function buildBookshelf(bookList) {
   let remainingShelfWidth = currentShelf.getBoundingClientRect().width;
 
   bookList.forEach(function (book) {
-    if (book.title !== "The Wheel of Time") {
+    if (book.title === "The Wheel of Time") {
+      //Add the wheel of time books
+      //If they can't fit on the current shelf, create a new shelf
+      if (getWoTWidth(WheelOfTime) > remainingShelfWidth) {
+        //creating a new shelf
+        const WoTShelf = createShelf();
+        WoTShelf.style.justifyContent = "center";
+
+        addGroupOfBooks(WheelOfTime, WoTShelf);
+      } else {
+        //If they can fit on the current shelf, add them to the current shelf
+        addGroupOfBooks(WheelOfTime, currentShelf);
+      }
+    } else if (book.title === "Harry Potter") {
+      //Add the Harry Potter books
+      //If they can't fit on the current shelf, create a new shelf
+      if (getHarryPotterWidth(HarryPotter) > remainingShelfWidth) {
+        //creating a new shelf
+        const HarryPotterShelf = createShelf();
+        HarryPotterShelf.style.justifyContent = "center";
+
+        addGroupOfBooks(HarryPotter, HarryPotterShelf);
+      } else {
+        //If they can fit on the current shelf, add them to the current shelf
+        addGroupOfBooks(HarryPotter, currentShelf);
+      }
+    } else {
       //if the book is too big for the remaining shelf width, create a new shelf
       if (book.height * book.heightRatio > remainingShelfWidth) {
+        //check to see if there's a shelf at the end that could be filled (Wot or Harry Potter)
         if (currentShelf !== bookshelf.lastElementChild) {
           currentShelf = bookshelf.lastElementChild;
-          remainingShelfWidth =
-            currentShelf.getBoundingClientRect().width -
-            getWoTWidth(WheelOfTime);
+          remainingShelfWidth = getRemainingShelfWidth(currentShelf);
         } else {
+          getRemainingShelfWidth(currentShelf);
           currentShelf = createShelf();
           remainingShelfWidth = currentShelf.getBoundingClientRect().width;
         }
@@ -593,24 +597,6 @@ function buildBookshelf(bookList) {
 
       //subtract the book width from the remaining shelf space
       remainingShelfWidth -= book.height * book.heightRatio;
-    } else {
-      //Add the wheel of time books
-      //If they can't fit on the current shelf, create a new shelf
-      if (getWoTWidth(WheelOfTime) > remainingShelfWidth) {
-        //creating a new shelf
-        const WoTShelf = createShelf();
-        WoTShelf.style.justifyContent = "center";
-
-        //add each wheel of time book to the shelf
-        WheelOfTime.forEach(function (book) {
-          addCoverToShelf(book, WoTShelf);
-        });
-      } else {
-        //If they can fit on the current shelf, add them to the current shelf
-        WheelOfTime.forEach(function (book) {
-          addCoverToShelf(book, currentShelf);
-        });
-      }
     }
   });
 }
