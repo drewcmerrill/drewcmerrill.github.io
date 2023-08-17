@@ -68,6 +68,134 @@ const books = [
   {
     title: "The Wheel of Time",
   },
+  {
+    title: "Les Misérables",
+    author: "Victor Hugo",
+    genres: ["Classic", "Fiction"],
+    goodreads: "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    webp: "images/books/Les_Miserables.webp",
+    height: 75 * heightMultplier,
+    heightRatio: 0.355,
+  },
+  {
+    title: "A Knight of the Seven Kingdoms",
+    author: "George R.R. Martin",
+    genres: ["Fantasy"],
+    goodreads: "",
+    webp: "images/books/A_knight_of_The_seven_Kingdoms.webp",
+    height: 100 * heightMultplier,
+    heightRatio: 0.208,
+  },
+  {
+    title: "Fire & Blood",
+    author: "George R.R. Martin",
+    genres: ["Fantasy"],
+    goodreads: "",
+    webp: "images/books/Fire_&_Blood.webp",
+    height: 100 * heightMultplier,
+    heightRatio: 0.233,
+  },
+  {
+    title: "Nightlord: Sunset",
+    webp: "images/books/Nightlord_Sunset.webp",
+    height: 100 * heightMultplier,
+    heightRatio: 0.262,
+  },
+
+  {
+    title: "Replay",
+    webp: "images/books/Replay.webp",
+    height: 100 * heightMultplier,
+    heightRatio: 0.136,
+  },
+  {
+    title: "Sea of Tranquility",
+    webp: "images/books/Sea_of_Tranquility.webp",
+    height: 100 * heightMultplier,
+    heightRatio: 0.149,
+  },
+  {
+    title: "The Catcher in the Rye",
+    webp: "images/books/The_Catcher_in_the_Rye.webp",
+    height: 100 * heightMultplier,
+    heightRatio: 0.139,
+  },
+  {
+    title: "The Song of Achilles",
+    webp: "images/books/The_Song_of_Achilles.webp",
+    height: 100 * heightMultplier,
+    heightRatio: 0.157,
+  },
+  {
+    title: "Wuthering Heights",
+    webp: "images/books/Wuthering_Heights.webp",
+    height: 100 * heightMultplier,
+    heightRatio: 0.225,
+  },
+  {
+    title: "Les Misérables",
+    author: "Victor Hugo",
+    genres: ["Classic", "Fiction"],
+    goodreads: "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
+    webp: "images/books/Les_Miserables.webp",
+    height: 75 * heightMultplier,
+    heightRatio: 0.355,
+  },
+  {
+    title: "A Knight of the Seven Kingdoms",
+    author: "George R.R. Martin",
+    genres: ["Fantasy"],
+    goodreads: "",
+    webp: "images/books/A_knight_of_The_seven_Kingdoms.webp",
+    height: 100 * heightMultplier,
+    heightRatio: 0.208,
+  },
+  {
+    title: "Fire & Blood",
+    author: "George R.R. Martin",
+    genres: ["Fantasy"],
+    goodreads: "",
+    webp: "images/books/Fire_&_Blood.webp",
+    height: 100 * heightMultplier,
+    heightRatio: 0.233,
+  },
+  {
+    title: "Nightlord: Sunset",
+    webp: "images/books/Nightlord_Sunset.webp",
+    height: 100 * heightMultplier,
+    heightRatio: 0.262,
+  },
+
+  {
+    title: "Replay",
+    webp: "images/books/Replay.webp",
+    height: 100 * heightMultplier,
+    heightRatio: 0.136,
+  },
+  {
+    title: "Sea of Tranquility",
+    webp: "images/books/Sea_of_Tranquility.webp",
+    height: 100 * heightMultplier,
+    heightRatio: 0.149,
+  },
+  {
+    title: "The Catcher in the Rye",
+    webp: "images/books/The_Catcher_in_the_Rye.webp",
+    height: 100 * heightMultplier,
+    heightRatio: 0.139,
+  },
+  {
+    title: "The Song of Achilles",
+    webp: "images/books/The_Song_of_Achilles.webp",
+    height: 100 * heightMultplier,
+    heightRatio: 0.157,
+  },
+  {
+    title: "Wuthering Heights",
+    webp: "images/books/Wuthering_Heights.webp",
+    height: 100 * heightMultplier,
+    heightRatio: 0.225,
+  },
 ];
 
 const WheelOfTime = [
@@ -178,6 +306,7 @@ const WheelOfTime = [
   },
 ];
 
+//Get the width of all the wheel of time books together
 function getWoTWidth(books) {
   const WoT = books.filter((book) => book.author === "Robert Jordan");
   return WoT.reduce(
@@ -187,72 +316,92 @@ function getWoTWidth(books) {
   );
 }
 
-function buildBookshelf(bookList) {
-  let currentShelf = document.createElement("div");
-  currentShelf.style.justifyContent = "center";
-  currentShelf.classList.add("shelf-space");
-  document.querySelector(".bookshelf").appendChild(currentShelf);
+//creates a new bookshelf
+function createShelf() {
+  let shelfHeight = 15 * heightMultplier;
+  shelfHeight = Math.min(shelfHeight, 70);
+
+  //create a new shelfSpace
+  let shelfSpace = document.createElement("div");
+  shelfSpace.classList.add("shelf-space");
+  shelfSpace.style.marginBottom = `${shelfHeight * 2}px`;
+  document.querySelector(".bookshelf").appendChild(shelfSpace);
+
+  //create a new shelf
   let shelf = document.createElement("div");
   shelf.classList.add("shelf");
-  shelf.style.width = `${window.innerWidth - 40}px`;
-  currentShelf.appendChild(shelf);
 
+  shelf.style.width = `${window.innerWidth - 40}px`;
+  shelf.style.height = `${shelfHeight}px`;
+  shelf.style.bottom = `${-shelfHeight}px`;
+  shelfSpace.appendChild(shelf);
+  return shelfSpace;
+}
+
+//Adds a book to a shelf
+function addCoverToShelf(book, shelf) {
+  //add the book to the shelf
+  const cover = document.createElement("img");
+  cover.classList.add("cover");
+
+  //set a max height of a cover
+  let coverMaxHeight = 500;
+  cover.style.maxHeight = coverMaxHeight;
+  book.height = Math.min(book.height, coverMaxHeight);
+
+  cover.src = book.webp;
+  cover.height = book.height;
+  shelf.appendChild(cover);
+
+  //prints out the width ratio
+  cover.addEventListener("load", function () {
+    console.log(
+      book.title,
+      Math.round(
+        (cover.getBoundingClientRect().width /
+          cover.getBoundingClientRect().height) *
+          1000
+      ) / 1000
+    );
+  });
+}
+
+//adds all books to the bookshelf
+function buildBookshelf(bookList) {
+  //create a new shelf
+  let currentShelf = createShelf();
+
+  //get the amount of empty shelf remaining
   let remainingShelfWidth = currentShelf.getBoundingClientRect().width;
 
   bookList.forEach(function (book) {
     if (book.title !== "The Wheel of Time") {
+      //if the book is too big for the remaining shelf width, create a new shelf
       if (book.height * book.heightRatio > remainingShelfWidth) {
-        currentShelf.style.justifyContent = "center";
-        currentShelf = document.createElement("div");
-        currentShelf.classList.add("shelf-space");
-        document.querySelector(".bookshelf").appendChild(currentShelf);
-        shelf = document.createElement("div");
-        shelf.classList.add("shelf");
-        shelf.style.width = `${window.innerWidth - 40}px`;
-        currentShelf.appendChild(shelf);
+        currentShelf = createShelf();
         remainingShelfWidth = currentShelf.getBoundingClientRect().width;
       }
-      const cover = document.createElement("img");
-      cover.classList.add("book");
-      cover.src = book.webp;
-      cover.height = book.height;
-      currentShelf.appendChild(cover);
-      cover.addEventListener("load", function () {
-        console.log(
-          book.title,
-          Math.round(
-            (cover.getBoundingClientRect().width /
-              cover.getBoundingClientRect().height) *
-              1000
-          ) / 1000
-        );
-      });
+
+      addCoverToShelf(book, currentShelf);
+
+      //subtract the book width from the remaining shelf space
       remainingShelfWidth -= book.height * book.heightRatio;
     } else {
+      //Add the wheel of time books
+      //If they can't fit on the current shelf, create a new shelf
       if (getWoTWidth(WheelOfTime) > remainingShelfWidth) {
-        const WoTShelfSpace = document.createElement("div");
-        WoTShelfSpace.style.justifyContent = "center";
-        WoTShelfSpace.classList.add("shelf-space");
-        document.querySelector(".bookshelf").appendChild(WoTShelfSpace);
-        const WoTShelf = document.createElement("div");
-        WoTShelf.classList.add("shelf");
-        WoTShelf.style.width = `${window.innerWidth - 40}px`;
-        WoTShelfSpace.appendChild(WoTShelf);
+        //creating a new shelf
+        const WoTShelf = createShelf();
+        WoTShelf.style.justifyContent = "center";
+
+        //add each wheel of time book to the shelf
         WheelOfTime.forEach(function (book) {
-          const cover = document.createElement("img");
-          cover.classList.add("book");
-          cover.src = book.webp;
-          cover.height = book.height;
-          WoTShelfSpace.appendChild(cover);
+          addCoverToShelf(book, WoTShelf);
         });
       } else {
+        //If they can fit on the current shelf, add them to the current shelf
         WheelOfTime.forEach(function (book) {
-          const cover = document.createElement("img");
-          cover.classList.add("book");
-          cover.src = book.webp;
-          cover.height = book.height;
-          currentShelf.appendChild(cover);
-          remainingShelfWidth -= book.height * book.heightRatio;
+          addCoverToShelf(book, currentShelf);
         });
       }
     }
@@ -260,7 +409,3 @@ function buildBookshelf(bookList) {
 }
 
 buildBookshelf(books);
-console.log(getWoTWidth(WheelOfTime));
-// window.addEventListener("resize", function () {
-//   buildBookshelf(books);
-// });
