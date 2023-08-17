@@ -88,10 +88,6 @@ body {
   display: flex;
   flex-direction: row;
   align-items: end;
-  width: calc(100vw - 60px);
-  /* height: 400px; */
-  /* background-color: rgb(65, 63, 63); */
-  /* margin-bottom: 80px; */
   box-sizing: border-box;
   position: relative;
   justify-content: center;
@@ -109,7 +105,6 @@ body {
 .cover {
   transition: transform 0.5s ease; /* Add top property to the transition */
   box-shadow: 10px 0px 8px rgba(0, 0, 0, 0.2);
-  max-height: 500px;
 }
 
 .cover:hover {
