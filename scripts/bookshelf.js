@@ -1,69 +1,11 @@
-let heightMultplier = (1.0948 * window.innerWidth) / 375;
+let heightMultplier = (1.15 * window.innerWidth) / 375;
 
 const books = [
   {
-    title: "Les Misérables",
-    author: "Victor Hugo",
-    genres: ["Classic", "Fiction"],
-    goodreads: "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
-    webp: "images/books/Les_Miserables.webp",
-    height: 100 * heightMultplier,
-    heightRatio: 0.355,
-  },
-  {
-    title: "A Knight of the Seven Kingdoms",
-    author: "George R.R. Martin",
-    genres: ["Fantasy"],
-    goodreads: "",
-    webp: "images/books/A_knight_of_The_seven_Kingdoms.webp",
-    height: 100 * heightMultplier,
-    heightRatio: 0.208,
-  },
-  {
-    title: "Fire & Blood",
-    author: "George R.R. Martin",
-    genres: ["Fantasy"],
-    goodreads: "",
-    webp: "images/books/Fire_&_Blood.webp",
-    height: 100 * heightMultplier,
-    heightRatio: 0.233,
-  },
-  {
-    title: "Nightlord: Sunset",
-    webp: "images/books/Nightlord_Sunset.webp",
-    height: 100 * heightMultplier,
-    heightRatio: 0.262,
-  },
-
-  {
-    title: "Replay",
-    webp: "images/books/Replay.webp",
-    height: 85 * heightMultplier,
-    heightRatio: 0.136,
-  },
-  {
     title: "Sea of Tranquility",
-    webp: "images/books/Sea_of_Tranquility.webp",
-    height: 90 * heightMultplier,
-    heightRatio: 0.149,
-  },
-  {
-    title: "The Catcher in the Rye",
-    webp: "images/books/The_Catcher_in_the_Rye.webp",
-    height: 80 * heightMultplier,
-    heightRatio: 0.139,
-  },
-  {
-    title: "The Song of Achilles",
-    webp: "images/books/The_Song_of_Achilles.webp",
-    height: 85 * heightMultplier,
-    heightRatio: 0.157,
-  },
-  {
-    title: "Wuthering Heights",
-    webp: "images/books/Wuthering_Heights.webp",
-    height: 90 * heightMultplier,
-    heightRatio: 0.225,
+    webp: "images/books/The_Sea_of_Tranquility.webp",
+    height: 89 * heightMultplier,
+    heightRatio: 0.117,
   },
   {
     title: "The Wheel of Time",
@@ -74,8 +16,8 @@ const books = [
     genres: ["Classic", "Fiction"],
     goodreads: "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
     webp: "images/books/Les_Miserables.webp",
-    height: 100 * heightMultplier,
-    heightRatio: 0.355,
+    height: 96 * heightMultplier,
+    heightRatio: 0.234,
   },
   {
     title: "A Knight of the Seven Kingdoms",
@@ -84,7 +26,7 @@ const books = [
     goodreads: "",
     webp: "images/books/A_knight_of_The_seven_Kingdoms.webp",
     height: 100 * heightMultplier,
-    heightRatio: 0.208,
+    heightRatio: 0.149,
   },
   {
     title: "Fire & Blood",
@@ -93,236 +35,46 @@ const books = [
     goodreads: "",
     webp: "images/books/Fire_&_Blood.webp",
     height: 100 * heightMultplier,
-    heightRatio: 0.233,
+    heightRatio: 0.198,
   },
   {
     title: "Nightlord: Sunset",
     webp: "images/books/Nightlord_Sunset.webp",
-    height: 100 * heightMultplier,
-    heightRatio: 0.262,
+    height: 97 * heightMultplier,
+    heightRatio: 0.192,
   },
 
   {
     title: "Replay",
     webp: "images/books/Replay.webp",
-    height: 85 * heightMultplier,
-    heightRatio: 0.136,
-  },
-  {
-    title: "Sea of Tranquility",
-    webp: "images/books/Sea_of_Tranquility.webp",
-    height: 90 * heightMultplier,
-    heightRatio: 0.149,
-  },
-  {
-    title: "The Catcher in the Rye",
-    webp: "images/books/The_Catcher_in_the_Rye.webp",
-    height: 80 * heightMultplier,
-    heightRatio: 0.139,
-  },
-  {
-    title: "The Song of Achilles",
-    webp: "images/books/The_Song_of_Achilles.webp",
-    height: 85 * heightMultplier,
-    heightRatio: 0.157,
-  },
-  {
-    title: "Wuthering Heights",
-    webp: "images/books/Wuthering_Heights.webp",
-    height: 90 * heightMultplier,
-    heightRatio: 0.225,
-  },
-  {
-    title: "Les Misérables",
-    author: "Victor Hugo",
-    genres: ["Classic", "Fiction"],
-    goodreads: "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
-    webp: "images/books/Les_Miserables.webp",
-    height: 100 * heightMultplier,
-    heightRatio: 0.355,
-  },
-  {
-    title: "A Knight of the Seven Kingdoms",
-    author: "George R.R. Martin",
-    genres: ["Fantasy"],
-    goodreads: "",
-    webp: "images/books/A_knight_of_The_seven_Kingdoms.webp",
-    height: 100 * heightMultplier,
-    heightRatio: 0.208,
-  },
-  {
-    title: "Fire & Blood",
-    author: "George R.R. Martin",
-    genres: ["Fantasy"],
-    goodreads: "",
-    webp: "images/books/Fire_&_Blood.webp",
-    height: 100 * heightMultplier,
-    heightRatio: 0.233,
-  },
-  {
-    title: "Nightlord: Sunset",
-    webp: "images/books/Nightlord_Sunset.webp",
-    height: 100 * heightMultplier,
-    heightRatio: 0.262,
+    height: 86 * heightMultplier,
+    heightRatio: 0.095,
   },
 
   {
-    title: "Replay",
-    webp: "images/books/Replay.webp",
-    height: 85 * heightMultplier,
-    heightRatio: 0.136,
-  },
-  {
-    title: "Sea of Tranquility",
-    webp: "images/books/Sea_of_Tranquility.webp",
-    height: 90 * heightMultplier,
-    heightRatio: 0.149,
-  },
-  {
     title: "The Catcher in the Rye",
     webp: "images/books/The_Catcher_in_the_Rye.webp",
-    height: 80 * heightMultplier,
-    heightRatio: 0.139,
+    height: 84 * heightMultplier,
+    heightRatio: 0.091,
   },
   {
     title: "The Song of Achilles",
     webp: "images/books/The_Song_of_Achilles.webp",
-    height: 85 * heightMultplier,
-    heightRatio: 0.157,
+    height: 84 * heightMultplier,
+    heightRatio: 0.115,
   },
   {
     title: "Wuthering Heights",
     webp: "images/books/Wuthering_Heights.webp",
-    height: 90 * heightMultplier,
-    heightRatio: 0.225,
-  },
-  {
-    title: "Les Misérables",
-    author: "Victor Hugo",
-    genres: ["Classic", "Fiction"],
-    goodreads: "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
-    webp: "images/books/Les_Miserables.webp",
-    height: 100 * heightMultplier,
-    heightRatio: 0.355,
-  },
-  {
-    title: "A Knight of the Seven Kingdoms",
-    author: "George R.R. Martin",
-    genres: ["Fantasy"],
-    goodreads: "",
-    webp: "images/books/A_knight_of_The_seven_Kingdoms.webp",
-    height: 100 * heightMultplier,
-    heightRatio: 0.208,
-  },
-  {
-    title: "Fire & Blood",
-    author: "George R.R. Martin",
-    genres: ["Fantasy"],
-    goodreads: "",
-    webp: "images/books/Fire_&_Blood.webp",
-    height: 100 * heightMultplier,
-    heightRatio: 0.233,
-  },
-  {
-    title: "Nightlord: Sunset",
-    webp: "images/books/Nightlord_Sunset.webp",
-    height: 100 * heightMultplier,
-    heightRatio: 0.262,
+    height: 89 * heightMultplier,
+    heightRatio: 0.159,
   },
 
   {
-    title: "Replay",
-    webp: "images/books/Replay.webp",
-    height: 85 * heightMultplier,
-    heightRatio: 0.136,
-  },
-  {
-    title: "Sea of Tranquility",
-    webp: "images/books/Sea_of_Tranquility.webp",
-    height: 90 * heightMultplier,
-    heightRatio: 0.149,
-  },
-  {
-    title: "The Catcher in the Rye",
-    webp: "images/books/The_Catcher_in_the_Rye.webp",
-    height: 80 * heightMultplier,
-    heightRatio: 0.139,
-  },
-  {
-    title: "The Song of Achilles",
-    webp: "images/books/The_Song_of_Achilles.webp",
-    height: 85 * heightMultplier,
-    heightRatio: 0.157,
-  },
-  {
-    title: "Wuthering Heights",
-    webp: "images/books/Wuthering_Heights.webp",
-    height: 90 * heightMultplier,
-    heightRatio: 0.225,
-  },
-  {
-    title: "Les Misérables",
-    author: "Victor Hugo",
-    genres: ["Classic", "Fiction"],
-    goodreads: "https://www.goodreads.com/book/show/24280.Les_Mis_rables",
-    webp: "images/books/Les_Miserables.webp",
-    height: 100 * heightMultplier,
-    heightRatio: 0.355,
-  },
-  {
-    title: "A Knight of the Seven Kingdoms",
-    author: "George R.R. Martin",
-    genres: ["Fantasy"],
-    goodreads: "",
-    webp: "images/books/A_knight_of_The_seven_Kingdoms.webp",
-    height: 100 * heightMultplier,
-    heightRatio: 0.208,
-  },
-  {
-    title: "Fire & Blood",
-    author: "George R.R. Martin",
-    genres: ["Fantasy"],
-    goodreads: "",
-    webp: "images/books/Fire_&_Blood.webp",
-    height: 100 * heightMultplier,
-    heightRatio: 0.233,
-  },
-  {
-    title: "Nightlord: Sunset",
-    webp: "images/books/Nightlord_Sunset.webp",
-    height: 100 * heightMultplier,
-    heightRatio: 0.262,
-  },
-
-  {
-    title: "Replay",
-    webp: "images/books/Replay.webp",
-    height: 85 * heightMultplier,
-    heightRatio: 0.136,
-  },
-  {
-    title: "Sea of Tranquility",
-    webp: "images/books/Sea_of_Tranquility.webp",
-    height: 90 * heightMultplier,
-    heightRatio: 0.149,
-  },
-  {
-    title: "The Catcher in the Rye",
-    webp: "images/books/The_Catcher_in_the_Rye.webp",
-    height: 80 * heightMultplier,
-    heightRatio: 0.139,
-  },
-  {
-    title: "The Song of Achilles",
-    webp: "images/books/The_Song_of_Achilles.webp",
-    height: 85 * heightMultplier,
-    heightRatio: 0.157,
-  },
-  {
-    title: "Wuthering Heights",
-    webp: "images/books/Wuthering_Heights.webp",
-    height: 90 * heightMultplier,
-    heightRatio: 0.225,
+    title: "Jonathan Strange & Mr Norrell",
+    webp: "images/books/Jonathan_Strange_&_Mr_Norrell.webp",
+    height: 81.6 * heightMultplier,
+    heightRatio: 0.247,
   },
 ];
 
@@ -471,7 +223,9 @@ function createShelf() {
   let shelf = document.createElement("div");
   shelf.classList.add("shelf");
 
-  shelf.style.width = `${window.innerWidth - 40}px`;
+  let shelfMargin = 30 * heightMultplier;
+
+  shelf.style.width = `${window.innerWidth - shelfMargin}px`;
   shelf.style.height = `${shelfHeight}px`;
   shelf.style.bottom = `${-shelfHeight}px`;
   shelfSpace.appendChild(shelf);
@@ -485,7 +239,7 @@ function addCoverToShelf(book, shelf) {
   cover.classList.add("cover");
 
   //set a max height of a cover
-  let coverMaxHeight = 400;
+  let coverMaxHeight = 700;
   cover.style.maxHeight = coverMaxHeight;
   book.height = Math.min(
     book.height,
@@ -498,16 +252,20 @@ function addCoverToShelf(book, shelf) {
   shelf.appendChild(cover);
 
   //prints out the width ratio
-  // cover.addEventListener("load", function () {
-  //   console.log(
-  //     book.title,
-  //     Math.round(
-  //       (cover.getBoundingClientRect().width /
-  //         cover.getBoundingClientRect().height) *
-  //         1000
-  //     ) / 1000
-  //   );
-  // });
+  cover.addEventListener("load", function () {
+    console.log(
+      book.title,
+      Math.round(
+        (cover.getBoundingClientRect().width /
+          cover.getBoundingClientRect().height) *
+          1000
+      ) / 1000
+    );
+  });
+
+  cover.addEventListener("click", () => {
+    console.log(cover.id);
+  });
 }
 
 function addGroupOfBooks(group, shelf) {
@@ -550,7 +308,7 @@ function buildBookshelf(bookList) {
   let currentShelf = createShelf();
 
   //get the amount of empty shelf remaining
-  let remainingShelfWidth = currentShelf.getBoundingClientRect().width;
+  let remainingShelfWidth = getRemainingShelfWidth(currentShelf);
 
   bookList.forEach(function (book) {
     if (book.title === "The Wheel of Time") {
@@ -582,14 +340,17 @@ function buildBookshelf(bookList) {
     } else {
       //if the book is too big for the remaining shelf width, create a new shelf
       if (book.height * book.heightRatio > remainingShelfWidth) {
-        //check to see if there's a shelf at the end that could be filled (Wot or Harry Potter)
-        if (currentShelf !== bookshelf.lastElementChild) {
+        //check to see if there's a shelf at the end that could be filled (Wot or Harry Potter) and that it has room for the book
+        if (
+          currentShelf !== bookshelf.lastElementChild &&
+          book.height * book.heightRatio <
+            getRemainingShelfWidth(bookshelf.lastElementChild)
+        ) {
           currentShelf = bookshelf.lastElementChild;
           remainingShelfWidth = getRemainingShelfWidth(currentShelf);
         } else {
-          getRemainingShelfWidth(currentShelf);
           currentShelf = createShelf();
-          remainingShelfWidth = currentShelf.getBoundingClientRect().width;
+          remainingShelfWidth = getRemainingShelfWidth(currentShelf);
         }
       }
 

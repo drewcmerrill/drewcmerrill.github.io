@@ -78,9 +78,7 @@ body {
   width: calc(100vw -20px);
   /* border: 2px solid black;
   background-color: antiquewhite; */
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 20px;
   box-sizing: border-box;
 }
 
@@ -99,7 +97,7 @@ body {
   background-color: rgb(61, 54, 48);
   bottom: -50px;
   box-shadow: 0px 20px 8px rgba(0, 0, 0, 0.2);
-  border-radius: 3px;
+  /* border-radius: 3px; */
 }
 
 .cover {
