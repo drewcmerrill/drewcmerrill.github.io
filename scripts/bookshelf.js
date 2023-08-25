@@ -76,6 +76,18 @@ const books = [
     height: 81.6 * heightMultplier,
     heightRatio: 0.247,
   },
+  {
+    title: "Dune",
+    webp: "images/books/Dune.webp",
+    height: 86.2 * heightMultplier,
+    heightRatio: 0.127,
+  },
+  {
+    title: "SPQR",
+    webp: "images/books/SPQR.webp",
+    height: 86.2 * heightMultplier,
+    heightRatio: 0.122,
+  },
 ];
 
 const WheelOfTime = [
@@ -239,7 +251,7 @@ function addCoverToShelf(book, shelf) {
   cover.classList.add("cover");
 
   //set a max height of a cover
-  let coverMaxHeight = 700;
+  let coverMaxHeight = 900;
   cover.style.maxHeight = coverMaxHeight;
   book.height = Math.min(
     book.height,
