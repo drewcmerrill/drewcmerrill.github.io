@@ -88,6 +88,12 @@ const books = [
     height: 86.2 * heightMultplier,
     heightRatio: 0.122,
   },
+  {
+    title: "H is for Hawk",
+    webp: "images/books/H_Is_For_Hawk.webp",
+    height: 86.2 * heightMultplier,
+    heightRatio: 0.087,
+  },
 ];
 
 const WheelOfTime = [
