@@ -94,6 +94,18 @@ const books = [
     height: 86.2 * heightMultplier,
     heightRatio: 0.087,
   },
+  {
+    title: "Red Rising",
+    webp: "images/books/Red_Rising.webp",
+    height: 86.2 * heightMultplier,
+    heightRatio: 0.109,
+  },
+  {
+    title: "Golden Son",
+    webp: "images/books/Golden_Son.webp",
+    height: 86.2 * heightMultplier,
+    heightRatio: 0.109,
+  },
 ];
 
 const WheelOfTime = [
