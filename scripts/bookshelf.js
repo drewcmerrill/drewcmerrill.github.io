@@ -106,6 +106,12 @@ const books = [
     height: 86.2 * heightMultplier,
     heightRatio: 0.109,
   },
+  {
+    title: "Endurance",
+    webp: "images/books/Endurance.webp",
+    height: 86.2 * heightMultplier,
+    heightRatio: 0.115,
+  },
 ];
 
 const WheelOfTime = [
