@@ -112,6 +112,12 @@ const books = [
     height: 86.2 * heightMultplier,
     heightRatio: 0.115,
   },
+  {
+    title: "The Count of Monte Cristo",
+    webp: "images/books/The_Count_Of_Monte_Cristo.webp",
+    height: 86.2 * heightMultplier,
+    heightRatio: 0.288,
+  },
 ];
 
 const WheelOfTime = [
