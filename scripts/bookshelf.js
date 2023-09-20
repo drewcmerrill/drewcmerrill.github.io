@@ -315,6 +315,8 @@ function addCoverToShelf(book, shelf) {
 
   cover.addEventListener("click", () => {
     const popup = document.querySelector(".popup-background");
+    const title = popup.querySelector(".title");
+    title.innerText = book.title;
     popup.style.display = "block";
   });
 }
