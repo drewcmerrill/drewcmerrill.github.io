@@ -1,5 +1,13 @@
 let heightMultplier = (1.15 * window.innerWidth) / 375;
 
+document
+  .querySelector(".popup-background")
+  .addEventListener("click", function (event) {
+    if (event.target === this) {
+      this.style.display = "none";
+    }
+  });
+
 const books = [
   {
     title: "Sea of Tranquility",
@@ -306,7 +314,8 @@ function addCoverToShelf(book, shelf) {
   });
 
   cover.addEventListener("click", () => {
-    console.log(cover.id);
+    const popup = document.querySelector(".popup-background");
+    popup.style.display = "block";
   });
 }
 
@@ -344,6 +353,10 @@ function getRemainingShelfWidth(shelf) {
 
 //adds all books to the bookshelf
 function buildBookshelf(bookList) {
+  const completedCoversHeader = document.querySelector(".header-covers");
+  completedCoversHeader.innerText = `Covers Completed: ${
+    books.length + WheelOfTime.length - 1
+  }/184`;
   const bookshelf = document.querySelector(".bookshelf");
 
   //create a new shelf
