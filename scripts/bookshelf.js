@@ -134,6 +134,12 @@ const books = [
     height: 86.2 * heightMultplier,
     heightRatio: 0.288,
   },
+  {
+    title: "This Book is Full of Spiders",
+    webp: "images/books/This_Book_Is_Full_Of_Spiders.webp",
+    height: 86.2 * heightMultplier,
+    heightRatio: 0.13,
+  },
 ];
 
 const WheelOfTime = [
