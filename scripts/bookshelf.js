@@ -140,6 +140,12 @@ const books = [
     height: 86.2 * heightMultplier,
     heightRatio: 0.13,
   },
+  {
+    title: "The Goblin Emperor",
+    webp: "images/books/The_Goblin_Emperor.webp",
+    height: 86.2 * heightMultplier,
+    heightRatio: 0.128,
+  },
 ];
 
 const WheelOfTime = [
