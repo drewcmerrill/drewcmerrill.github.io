@@ -1,4 +1,5 @@
 let heightMultplier = (1.15 * window.innerWidth) / 375;
+let wotHeightMultiplier = (1.15 * window.innerWidth) / 375;
 
 document
   .querySelector(".popup-background")
@@ -152,6 +153,12 @@ const books = [
     height: 86.2 * heightMultplier,
     heightRatio: 0.156,
   },
+  {
+    title: "How to Win Friends & Influence People",
+    webp: "images/books/How_To_Win_Friends_And_Influence_People.webp",
+    height: 86.2 * heightMultplier,
+    heightRatio: 0.078,
+  },
 ];
 
 const WheelOfTime = [
@@ -159,105 +166,105 @@ const WheelOfTime = [
     title: "New Spring",
     author: "Robert Jordan",
     webp: "images/books/New_Spring.webp",
-    height: 100 * heightMultplier,
+    height: 100 * wotHeightMultiplier,
     heightRatio: 0.15,
   },
   {
     title: "The Eye of the World",
     author: "Robert Jordan",
     webp: "images/books/The_Eye_of_the_World.webp",
-    height: 100 * heightMultplier,
+    height: 100 * wotHeightMultiplier,
     heightRatio: 0.198,
   },
   {
     title: "The Great Hunt",
     author: "Robert Jordan",
     webp: "images/books/The_Great_Hunt.webp",
-    height: 100 * heightMultplier,
+    height: 100 * wotHeightMultiplier,
     heightRatio: 0.181,
   },
   {
     title: "The Dragon Reborn",
     author: "Robert Jordan",
     webp: "images/books/The_Dragon_Reborn.webp",
-    height: 100 * heightMultplier,
+    height: 100 * wotHeightMultiplier,
     heightRatio: 0.189,
   },
   {
     title: "The Shadow Rising",
     author: "Robert Jordan",
     webp: "images/books/The_Shadow_Rising.webp",
-    height: 100 * heightMultplier,
+    height: 100 * wotHeightMultiplier,
     heightRatio: 0.191,
   },
   {
     title: "The Fires of Heaven",
     author: "Robert Jordan",
     webp: "images/books/The_Fires_of_Heaven.webp",
-    height: 100 * heightMultplier,
+    height: 100 * wotHeightMultiplier,
     heightRatio: 0.185,
   },
   {
     title: "Lord of Chaos",
     author: "Robert Jordan",
     webp: "images/books/Lord_of_Chaos.webp",
-    height: 100 * heightMultplier,
+    height: 100 * wotHeightMultiplier,
     heightRatio: 0.168,
   },
   {
     title: "A Crown of Swords",
     author: "Robert Jordan",
     webp: "images/books/A_Crown_of_Swords.webp",
-    height: 100 * heightMultplier,
+    height: 100 * wotHeightMultiplier,
     heightRatio: 0.197,
   },
   {
     title: "The Path of Daggers",
     author: "Robert Jordan",
     webp: "images/books/The_Path_of_Daggers.webp",
-    height: 100 * heightMultplier,
+    height: 100 * wotHeightMultiplier,
     heightRatio: 0.2,
   },
   {
     title: "Winter's Heart",
     author: "Robert Jordan",
     webp: "images/books/Winter's_Heart.webp",
-    height: 100 * heightMultplier,
+    height: 100 * wotHeightMultiplier,
     heightRatio: 0.164,
   },
   {
     title: "Crossroads of Twilight",
     author: "Robert Jordan",
     webp: "images/books/Crossroads_of_Twilight.webp",
-    height: 100 * heightMultplier,
+    height: 100 * wotHeightMultiplier,
     heightRatio: 0.213,
   },
   {
     title: "Knife of Dreams",
     author: "Robert Jordan",
     webp: "images/books/Knife_of_Dreams.webp",
-    height: 100 * heightMultplier,
+    height: 100 * wotHeightMultiplier,
     heightRatio: 0.161,
   },
   {
     title: "The Gathering Storm",
     author: "Robert Jordan",
     webp: "images/books/The_Gathering_Storm.webp",
-    height: 100 * heightMultplier,
+    height: 100 * wotHeightMultiplier,
     heightRatio: 0.25,
   },
   {
     title: "Towers of Midnight",
     author: "Robert Jordan",
     webp: "images/books/Towers_of_Midnight.webp",
-    height: 100 * heightMultplier,
+    height: 100 * wotHeightMultiplier,
     heightRatio: 0.205,
   },
   {
     title: "A Memory of Light",
     author: "Robert Jordan",
     webp: "images/books/A_Memory_of_Light.webp",
-    height: 100 * heightMultplier,
+    height: 100 * wotHeightMultiplier,
     heightRatio: 0.225,
   },
 ];
@@ -286,7 +293,7 @@ function getHarryPotterWidth(books) {
 
 //creates a new bookshelf
 function createShelf() {
-  let shelfHeight = 10 * heightMultplier;
+  let shelfHeight = 10 * wotHeightMultiplier;
   shelfHeight = Math.min(shelfHeight, 70);
 
   //create a new shelfSpace
@@ -299,7 +306,7 @@ function createShelf() {
   let shelf = document.createElement("div");
   shelf.classList.add("shelf");
 
-  let shelfMargin = 30 * heightMultplier;
+  let shelfMargin = 30 * wotHeightMultiplier;
 
   shelf.style.width = `${window.innerWidth - shelfMargin}px`;
   shelf.style.height = `${shelfHeight}px`;
