@@ -146,6 +146,12 @@ const books = [
     height: 86.2 * heightMultplier,
     heightRatio: 0.128,
   },
+  {
+    title: "Kings of the Wyld",
+    webp: "images/books/Kings_Of_The_Wyld.webp",
+    height: 86.2 * heightMultplier,
+    heightRatio: 0.156,
+  },
 ];
 
 const WheelOfTime = [
