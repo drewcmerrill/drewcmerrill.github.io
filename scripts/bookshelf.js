@@ -159,6 +159,12 @@ const books = [
     height: 86.2 * heightMultplier,
     heightRatio: 0.078,
   },
+  {
+    title: "Philadelphia Chickens",
+    webp: "images/books/Philadelphia_Chickens.webp",
+    height: 86.2 * heightMultplier,
+    heightRatio: 0.052,
+  },
 ];
 
 const WheelOfTime = [
