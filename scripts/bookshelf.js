@@ -165,6 +165,30 @@ const books = [
     height: 86.2 * heightMultplier,
     heightRatio: 0.052,
   },
+  {
+    title: "Things to Make and Do in the Fourth Dimension",
+    webp: "images/books/Things_To_Make_And_Do_In_The_Fourth_Dimension.webp",
+    height: 86.2 * heightMultplier,
+    heightRatio: 0.145,
+  },
+  {
+    title: "The Lord of the Rings",
+    webp: "images/books/The_Lord_Of_The_Rings.webp",
+    height: 86.2 * heightMultplier,
+    heightRatio: 0.197,
+  },
+  {
+    title: "Justice",
+    webp: "images/books/Justice.webp",
+    height: 86.2 * heightMultplier,
+    heightRatio: 0.097,
+  },
+  {
+    title: "Foundation",
+    webp: "images/books/Foundation.webp",
+    height: 86.2 * heightMultplier,
+    heightRatio: 0.059,
+  },
 ];
 
 const WheelOfTime = [
